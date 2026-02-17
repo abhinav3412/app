@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import Razorpay from "razorpay";
-const { getDB, getLocalDateTimeString } = require("../../../database/db");
+const { getDB, getLocalDateTimeString } = require("../../../../database/db");
 
 // Initialize Razorpay
 const razorpay = new Razorpay({
